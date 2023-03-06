@@ -14,8 +14,8 @@ alert(IsNumberPositive(10));
 function convertsDaystoAge(event) {
     const age=(3650);
     return age/365;
-}
 console.log(convertsDaystoAge(3650/365));
+}
 
 // 3. Write a function that takes three numbers and returns the largest of the three numbers
 function getLargestNumber(event) {
@@ -28,5 +28,19 @@ function getLargestNumber(event) {
     } else {
         return c;
     }
-}
 console.log(getLargestNumber(2,1,4));
+}
+
+// 4. Write a function that takes an array of names and returns the last name from the array of names
+function getLastName(event) {
+    let names=["Charlie", "Rob", "Andy"];
+    console.log(names[2]);
+}
+
+// 5. Write a function that takes an array of numbers and returns true if all of the numbers are positive. It should return false if there are one oe more negative numbers in the array
+function allNumbersPositive(event) {
+    let numbers=[-5,4,6];
+    if(numbers<=-5) {
+        console.log(false)
+    }
+}
